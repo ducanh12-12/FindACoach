@@ -7,18 +7,16 @@ yarn install
 
 ### Compiles and hot-reloads for development
 ```
-yarn serve
-```
+npx json-server --watch db.json
+yarn serve (In new terminal)
 
-### Compiles and minifies for production
-```
-yarn build
-```
+User Account:
+username: user,
+password: 123123Aa@,
 
-### Lints and fixes files
-```
-yarn lint
-```
+Coach Account:
+username: Coach1,
+password: 123123Aa@,
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+username: coach2,
+password: 123123Aa@

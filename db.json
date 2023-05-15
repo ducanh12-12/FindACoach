@@ -1,0 +1,65 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "User",
+      "username": "user",
+      "password": "123123Aa@",
+      "type": "user"
+    },
+    {
+      "id": 2,
+      "name": "coach1",
+      "username": "Coach1",
+      "password": "123123Aa@",
+      "type": "coach"
+    },
+    {
+      "id": 3,
+      "username": "coach2",
+      "name": "Coach2",
+      "password": "123123Aa@",
+      "type": "coach"
+    }
+  ],
+  "coaches": [
+    {
+      "id": 1,
+      "coachId": 1,
+      "name": "Coach1",
+      "hourlyRate": "$30/h",
+      "areas": [
+        "frontend",
+        "backend",
+        "career"
+      ],
+      "description": "I'm Front-end Developer , i want become to Fullstack Developer"
+    },
+    {
+      "id": 2,
+      "coachId": 3,
+      "name": "Coach2",
+      "hourlyRate": "$30/h",
+      "areas": [
+        "frontend"
+      ],
+      "description": "I'm Front-end Developer , i want become to Fullstack Developer"
+    }
+  ],
+  "messages": [
+    {
+      "messages": "Hello",
+      "name": "User",
+      "senderId": 1,
+      "receiverId": 2,
+      "id": 1
+    },
+    {
+      "messages": "How are you!",
+      "name": "User",
+      "senderId": 1,
+      "receiverId": 2,
+      "id": 2
+    }
+  ]
+}
