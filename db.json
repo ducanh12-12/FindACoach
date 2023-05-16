@@ -25,7 +25,7 @@
   "coaches": [
     {
       "id": 1,
-      "coachId": 1,
+      "coachId": 2,
       "name": "Coach1",
       "hourlyRate": "$30/h",
       "areas": [
@@ -60,6 +60,34 @@
       "senderId": 1,
       "receiverId": 2,
       "id": 2
+    },
+    {
+      "name": "User",
+      "senderId": 1,
+      "receiverId": 2,
+      "messages": "áddasdasd",
+      "id": 3
+    },
+    {
+      "name": "User",
+      "senderId": 1,
+      "receiverId": 2,
+      "messages": "Hi",
+      "id": 4
+    },
+    {
+      "messages": "3",
+      "name": "User",
+      "senderId": 1,
+      "receiverId": 2,
+      "id": 5
+    },
+    {
+      "name": "User",
+      "senderId": 1,
+      "receiverId": 3,
+      "messages": "Hi2",
+      "id": 6
     }
   ]
 }

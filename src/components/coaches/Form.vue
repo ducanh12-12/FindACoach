@@ -58,8 +58,10 @@
           }
       },
       watch:{
-          frontend() {
-              this.frontend ? this.form.areas.val.push('frontend') : this.form.areas.val.splice(this.form.areas.val.indexOf('frontend',1))
+          'frontend' : {
+            handler() {
+                this.frontend ? this.form.areas.val.push('frontend') : this.form.areas.val.splice(this.form.areas.val.indexOf('frontend',1))
+            }
           },
           backend() {
               this.backend ? this.form.areas.val.push('backend') : this.form.areas.val.splice(this.form.areas.val.indexOf('backend',1))
@@ -67,13 +69,14 @@
           career() {
               this.career ? this.form.areas.val.push('career') : this.form.areas.val.splice(this.form.areas.val.indexOf('career',1))
           },
-          'form.areas.val.length':{
-            handler() {
+          form : {
+            handler () {
                 if (this.form.areas.val.length > 0) {
                     this.form.areas.isValid = true;
                 }
-            }
-          }
+            },
+            deep:true
+          },
       },
       methods:{
           validateForm() {
